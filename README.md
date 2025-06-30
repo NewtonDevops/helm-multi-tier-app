@@ -140,6 +140,9 @@ kubectl get deployment -n adv-net-lab
 # See pods with their labels
 kubectl get pods -n adv-net-lab --show-labels
 
+# Show detailed information about all pods
+kubectl get pods -o wide
+
 ```
 
 ## 🧠 Best Practices
