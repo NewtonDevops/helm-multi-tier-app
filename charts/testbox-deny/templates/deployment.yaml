@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testbox-deny
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testbox-deny
+  template:
+    metadata:
+      labels:
+        app: testbox-deny
+    spec:
+      containers:
+        - name: testbox
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          command: ["sleep", "3600"]
