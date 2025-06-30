@@ -15,9 +15,6 @@ multi-tier-app/
 │   ├── frontend/            # Frontend chart
 │   ├── testbox-allow/       # Internal access pod (allowed)
 │   └── testbox-deny/        # Internal access pod (denied)
-├── templates/
-│   ├── ingress.yaml         # Ingress routing
-│   └── networkpolicy.yaml   # NetworkPolicy (optional)
 ```
 
 #### Install Helm if not installed:
