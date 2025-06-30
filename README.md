@@ -8,7 +8,7 @@ This project demonstrates how to deploy a multi-tier application using **Helm ch
 
 ```bash
 multi-tier-app/
-├── Chart.yaml                # Root Helm chart
+├── Chart.yaml               # Root Helm chart
 ├── values.yaml              # Global default values
 ├── charts/                  # Subcharts for each component
 │   ├── backend/             # Backend chart
