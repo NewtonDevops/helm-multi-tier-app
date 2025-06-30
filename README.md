@@ -36,12 +36,13 @@ Clone the project:
 
 ```bash
 git clone https://github.com/NewtonDevops/helm-multi-tier-app.git
+cd helm-multi-tier-app
 ```
 
 Install the chart:
 
 ```bash
-helm install multi-tier ./multi-tier-app -n adv-net-lab --create-namespace
+helm install multi-tier . -n adv-net-lab --create-namespace
 ```
 Check deployed resources:
 
