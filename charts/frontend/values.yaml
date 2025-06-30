@@ -1,0 +1,5 @@
+replicaCount: 1
+image:
+  repository: frontend-app
+  tag: latest
+  port: 80
