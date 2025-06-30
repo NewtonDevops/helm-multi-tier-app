@@ -35,7 +35,7 @@ sudo apt-get install helm
 Clone the project:
 
 ```bash
-git clone 
+git clone https://github.com/NewtonDevops/helm-multi-tier-app.git
 ```
 
 Install the chart:
