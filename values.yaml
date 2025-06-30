@@ -1,0 +1,27 @@
+backend:
+  replicaCount: 1
+  image:
+    repository: python-backend
+    tag: latest
+    port: 8080
+
+frontend:
+  replicaCount: 1
+  image:
+    repository: nginx
+    tag: latest
+    port: 80
+
+testbox-allow:
+  image:
+    repository: busybox
+    tag: 1.35
+
+testbox-deny:
+  image:
+    repository: busybox
+    tag: 1.35
+
+ingress:
+  enabled: true
+  host: "nginx.local"
